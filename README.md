@@ -1,84 +1,63 @@
 # HybridX NodeNet
 
-**HybridX NodeNet** — это высокоуровневая система для работы со смысловыми узлами, их связями и контекстной динамикой.  
-Репозиторий содержит концептуальные структуры для представления информации в виде узлов, формирующих сеть знаний.
+**HybridX NodeNet** is a high-level framework for representing conceptual nodes and their relationships within a semantic graph.  
+This repository contains structural formats and documentation intended for research, experimentation, and conceptual modeling.
 
-## 🎯 Назначение проекта
+NodeNet provides an abstraction layer for describing ideas as nodes, linking them into networks, and attaching metadata without exposing the internal computational logic of Hybrid X.
 
-NodeNet предоставляет:
+## 🔍 Purpose
 
-- базовый формат узлов (`node`)
-- систему атрибутов для описания связей между узлами
-- механизмы резонансных связей (высокоуровневая модель)
-- безопасный каркас для добавления модулей валидации
-- минимальную инфраструктуру для построения графов смысла
+This repository includes:
 
-Проект **не содержит** вычислительных моделей HybridX, внутренних алгоритмов, модуля EVL, BUFFER, FSM или иных элементов закрытой архитектуры.
+- structural templates for conceptual nodes
+- a high-level schema format
+- documentation describing the public architecture
+- example nodes for demonstration
+- directory structure for organizing semantic graphs
 
-## 🧩 Что такое узел?
+The repository **does not** contain internal logic, algorithms, validation modules, resonance models, or any proprietary components of Hybrid X.
 
-Узел (`Node`) — это объект, описывающий:
+## 🧩 What is a Node?
 
-- краткое содержание идеи
-- её отношения с другими идеями
-- контекст, в котором узел существует
-- базовые метаданные
+A Node is a JSON object that describes:
 
-NodeNet представляет собой сеть таких узлов, но без внутренних алгоритмов обработки.
+- the concept or idea being represented  
+- summary or meaning  
+- optional links to other nodes  
+- metadata fields (timestamps, tags, etc.)  
 
-## 🛡 Принципы безопасности проекта
+Nodes form a semantic graph, but all computational processing is intentionally excluded.
 
-Этот репозиторий намеренно предоставляет только **верхний уровень архитектуры**, включая:
+## 🛡 Security & Scope Notice
 
-- структуры данных без внутренней логики
-- минимальные шаблоны
-- отсутствующие вычислительные элементы
+This repository intentionally provides:
 
-Это сделано для того, чтобы невозможно было воспроизвести или восстановить закрытую систему Hybrid X из открытого кода.
+- structural elements only  
+- no executable reasoning modules  
+- no validation algorithms  
+- no mathematical or physical models  
+- no internal Hybrid X mechanisms  
 
-## 📂 Структура репозитория
+It is not possible to reconstruct closed parts of Hybrid X from this repository.
 
-```
-/nodes/           — примеры публичных узлов  
-/schema/          — форматы и описания структур  
-/docs/            — документация высокого уровня  
-README.md         — описание проекта  
-LICENSE           — MIT License  
-```
+## 📂 Repository Structure
+/nodes/           — example nodes (public-safe) /schema/          — structural schemas /docs/            — high-level documentation README.md         — main project description LICENSE           — Apache License 2.0
 
-## ⚙️ Минимальный пример узла
+## 📄 Example Node
 
 ```json
 {
   "id": "example_node_001",
   "title": "Example Concept",
-  "summary": "High-level description of a conceptual element.",
-  "links": [
-    { "target": "example_node_002", "type": "related" }
-  ],
+  "summary": "High-level placeholder node for the NodeNet graph.",
+  "links": [],
   "metadata": {
-    "created_at": "2025-01-01T00:00:00Z"
+    "created_at": "2025-01-01T00:00:00Z",
+    "public_demo": true
   }
 }
-```
 
-## 📜 Лицензия
+📜 License
 
-Проект распространяется по лицензии **Apache License 2.0**.  
-Она позволяет использовать материалы в исследованиях и разработке, при этом обеспечивает более строгую юридическую защиту и чёткие правила ответственности.
-
-Обратите внимание: данный репозиторий содержит только верхнеуровневую архитектуру и структуры данных.  
-Воспроизведение закрытых компонентов Hybrid X по материалам репозитория невозможно.
-
----
-
-## ❗ Внимание
-
-Этот репозиторий **не является** реализацией Hybrid X.  
-Он содержит только абстрактные структуры и демонстрационные материалы, предназначенные для:
-
-- обучения  
-- обсуждения  
-- формирования концептуальной библиотеки  
-
-Оставшиеся механизмы Hybrid X являются закрытыми и недоступными публично.
+This project is distributed under the Apache License 2.0.
+All internal components of Hybrid X remain private and are not included in this repository.
