@@ -1,0 +1,10 @@
+{
+  "id": "example_node_001",
+  "title": "Example Concept",
+  "summary": "High-level placeholder node for the NodeNet graph.",
+  "links": [],
+  "metadata": {
+    "created_at": "2025-01-01T00:00:00Z",
+    "public_demo": true
+  }
+}
