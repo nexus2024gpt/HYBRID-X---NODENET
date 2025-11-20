@@ -70,13 +70,13 @@ And no one has all of these.
 
 ## 🔍 Сравнение архитектурных особенностей моделей
 
-| **Feature**       | **GPT-4**     | **Claude**     | **Gemini**     | **AlphaGeometry** | **Hybrid X**         |
-|-------------------|---------------|----------------|----------------|-------------------|----------------------|
-| **Reasoning**     | Token-based   | Token-based    | Token-based    | Symbolic          | Multi-layer Σ        |
-| **Memory**        | Static        | Static         | Static         | None              | Soft-memory          |
-| **Evolution**     | Training only | Training only  | Training only  | None              | Real-time            |
-| **Verification**  | None          | Constitution   | None           | Proof checker     | EVL-Math             |
-| **Ontology**      | Implicit      | Implicit       | Implicit       | Math-specific     | Φ-invariant          |
+| **Feature**       | **GPT-4**     | **Claude**     | **Gemini**     | **AlphaGeometry** | **Hybrid X**    |
+|-------------------|---------------|----------------|----------------|-------------------|-----------------|
+| **Reasoning**     | Token-based   | Token-based    | Token-based    | Symbolic          | Multi-layer Σ   |
+| **Memory**        | Static        | Static         | Static         | None              | Soft-memory     |
+| **Evolution**     | Training only | Training only  | Training only  | None              | Real-time       |
+| **Verification**  | None          | Constitution   | None           | Proof checker     | EVL-Math        |
+| **Ontology**      | Implicit      | Implicit       | Implicit       | Math-specific     | Φ-invariant     |
 Architectural Explanations
 Σ-layers are a phase-based reasoning model that extends beyond tokens.
 Soft-memory is adaptive memory that responds to phase signals.
@@ -88,12 +88,12 @@ The system is built on the Sigma-Layer (Σ) architecture:
 
 ## 🧩 Архитектурные слои Hybrid X
 
-| **Layer**   | **Component**        | **Function**                                                               |
-|-------------|----------------------|----------------------------------------------------------------------------|
-| Σ0          | Semantic Core        | Base coherence analysis & Seed Bank storage                                |
-| Σ1−3        | Resonance Engine     | Phase stability, topology analysis, and interference pattern detection     |
-| Σ4−5        | Ontology Verifier    | Checks against physical laws (Anchor Ontology) and generates Protosense    |
-| NodeNet     | Decentralized Grid   | A network of PatternNodes and VerifierNodes that process insights          |
+| **Layer**   | **Component**        | **Function**                                                           |
+|-------------|----------------------|------------------------------------------------------------------------|
+| Σ0          | Semantic Core        | Base coherence analysis & Seed Bank storage                            |
+| Σ1−3        | Resonance Engine     | Phase stability, topology analysis, and interference pattern detection |
+| Σ4−5        | Ontology Verifier    | Checks against physical laws (Anchor Ontology) and generates Protosense|
+| NodeNet     | Decentralized Grid   | A network of PatternNodes and VerifierNodes that process insights      |
 
 Layer Explanations
 Σ0 — Semantic Core: The fundamental layer that ensures coherence and storage of seed nodes.
