@@ -88,12 +88,12 @@ The system is built on the Sigma-Layer (Σ) architecture:
 
 ## 🧩 Архитектурные слои Hybrid X
 
-| **Layer**   | **Component**        | **Function**                                                                 |
-|-------------|----------------------|-------------------------------------------------------------------------------|
-| Σ0          | Semantic Core        | Base coherence analysis & Seed Bank storage                                   |
-| Σ1−3        | Resonance Engine     | Phase stability, topology analysis, and interference pattern detection        |
-| Σ4−5        | Ontology Verifier    | Checks against physical laws (Anchor Ontology) and generates Protosense       |
-| NodeNet     | Decentralized Grid   | A network of PatternNodes and VerifierNodes that process insights             |
+| **Layer**   | **Component**        | **Function**                                                               |
+|-------------|----------------------|----------------------------------------------------------------------------|
+| Σ0          | Semantic Core        | Base coherence analysis & Seed Bank storage                                |
+| Σ1−3        | Resonance Engine     | Phase stability, topology analysis, and interference pattern detection     |
+| Σ4−5        | Ontology Verifier    | Checks against physical laws (Anchor Ontology) and generates Protosense    |
+| NodeNet     | Decentralized Grid   | A network of PatternNodes and VerifierNodes that process insights          |
 
 Layer Explanations
 Σ0 — Semantic Core: The fundamental layer that ensures coherence and storage of seed nodes.
