@@ -33,8 +33,8 @@ falsifiable vectors using Phase Stability Analysis (Σ-1)
 Challenge: How to distinguish a profound insight from an AI hallucination if current science cannot yet verify it?
 
 
-Solution: Entropy Verification Protocol. A structure is considered valid only if it reduces the system's semantic entropy (ΔS<0)
- and passes the "Orthogonal Consistency" check across multiple Σ-layers.
+Solution: Entropy Verification Protocol. A structure is considered valid only if it reduces the system's semantic
+entropy (ΔS<0) and passes the "Orthogonal Consistency" check across multiple Σ-layers.
 
 
 3. The Governance Dilemma 
@@ -86,18 +86,20 @@ EVL-Math is a module for verifying logical and mathematical nodes.
 🏗 Architecture Overview
 The system is built on the Sigma-Layer (Σ) architecture:
 
-Layer	Component	Function
- 
-Σ-0 Semantic Core	Base coherence analysis & Seed Bank storage.
- 	
-Σ-(1−3) Resonance Engine	Phase stability, topology analysis, and interference pattern detection.
- 	
-Σ-(4−5) Ontology Verifier	Checks against physical laws (Anchor Ontology) and generates Protosense.
-NodeNet	Decentralized Grid	A network of PatternNodes and VerifierNodes that process insights.
+## 🧩 Архитектурные слои Hybrid X
 
-🚀 Quick Start (Runnable Demo)
-This repository contains the Core Engine with Patch 23 heuristic stubs, allowing you to run the resonance
-detection logic without a BCI interface.
+| **Layer**   | **Component**        | **Function**                                                                 |
+|-------------|----------------------|-------------------------------------------------------------------------------|
+| Σ0          | Semantic Core        | Base coherence analysis & Seed Bank storage                                   |
+| Σ1−3        | Resonance Engine     | Phase stability, topology analysis, and interference pattern detection        |
+| Σ4−5        | Ontology Verifier    | Checks against physical laws (Anchor Ontology) and generates Protosense       |
+| NodeNet     | Decentralized Grid   | A network of PatternNodes and VerifierNodes that process insights             |
+
+Layer Explanations
+Σ0 — Semantic Core: The fundamental layer that ensures coherence and storage of seed nodes.
+Σ1-3 — Resonance Engine: Responsible for phase stability and topology analysis.
+Σ4-5 — Ontology Verifier: Checks consistency with physical laws and generates proto-meaning.
+NodeNet — Decentralized Grid: A distributed network of nodes that processes insights and ensures system evolution.
 
 1. Installation
 Bash
