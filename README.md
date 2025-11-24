@@ -1,5 +1,4 @@
 ````markdown
-
 # HYBRID-X: Ontological Resonance Engine
 
 ```text
