@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hybrid X Simulation</title>
+</head>
+<body>
+  <h1>🚀 Hybrid X-NodeNet MVP</h1>
+  <input id="userInput" placeholder="Enter your query...">
+  <button onclick="runSimulation()">Run Hybrid X Simulation</button>
+  <pre id="output"></pre>
+
+  <script>
+    async function runSimulation() {
+      const input = document.getElementById("userInput").value;
+      const response = await fetch("/simulate", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({text: input})
+      });
+      const result = await response.json();
+      document.getElementById("output").innerText = JSON.stringify(result, null, 2);
+    }
+  </script>
+</body>
+</html>
 
