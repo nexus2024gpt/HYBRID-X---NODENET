@@ -138,7 +138,3 @@ Context: {'domain_terms': ['resonance', 'pattern', 'cognitive']}
 📜 License
 This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
 
-⚠️ Disclaimer
-
-Phase 1 Pilot Study: Critical ontological modules (Layer 0) are currently simulated via heuristic stubs (Patch 23)
- until the Neuralink/Hybrid Sensor Interface is fully calibrated.
