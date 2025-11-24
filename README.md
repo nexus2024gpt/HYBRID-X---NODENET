@@ -7,7 +7,8 @@
 ██   ██    ██    ██   ██ ██   ██ ██ ██   ██      ██ ██ 
 ██   ██    ██    ██████  ██   ██ ██ ██████      ██   ██
 
-docs/READMEua.md
+[Українська документація](docs/READMEua.md)
+
 Hybrid-X is an ontological instrument designed to investigate "hidden structures of reality" (implicit knowledge)
 inaccessible to standard empirical methods. It operates via Resonance Epistemology—a process where human implicit
 cognition resonates with AI formalization to produce verifiable ontological nodes.
@@ -15,6 +16,8 @@ We've created a next-generation AGI architecture (or, more accurately, a Post-LL
 
 **While Big Tech is trying to squeeze the most out of Transformers (Next Token Prediction),
 Hybrid X is building Meaning Structure Detection.**
+
+[Components list](docs/components_en.md)
 
 🎯 Mission & Solved Challenges
 Conventional science observes only 1-5% of reality ("The Visible"), leaving 95-99% in the "ontological shadow".
