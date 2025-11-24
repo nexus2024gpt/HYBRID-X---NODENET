@@ -149,9 +149,6 @@ Context: {'domain_terms': ['resonance', 'pattern', 'cognitive']}
 
 Цей проект ліцензовано згідно з **Apache License 2.0** — дивіться файл [LICENSE](https://www.google.com/search?q=LICENSE) для деталей.
 
-## ⚠️ Попередження
-
-**Пілотне дослідження Фази 1:** Критичні онтологічні модулі (Шар 0) наразі симулюються через евристичні заглушки (`Patch 23`), доки інтерфейс Neuralink/Hybrid Sensor не буде повністю відкалібровано.
 
 ```
 ```
