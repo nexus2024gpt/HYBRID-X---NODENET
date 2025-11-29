@@ -18,6 +18,8 @@ We've created a next-generation AGI architecture (or, more accurately, a Post-LL
 Hybrid X is building Meaning Structure Detection.**
 
 - [Components list](docs/components_en.md)
+- [Verification](HYBRID-X---NODENET/verification/)
+
 
 ## Mission & Solved Challenges
 
